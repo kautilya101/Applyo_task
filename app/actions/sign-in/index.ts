@@ -22,10 +22,10 @@ export async function signInAction(data: IUser) {
   const cookiesStore = await cookies();
   cookiesStore.set("token", token, {
     httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
+    secure: process.env.NODE_ENV === "production" || true,
     sameSite: "lax",
     path: "/",
-    expires: new Date(Date.now() +   7 * 60 * 60 * 24 * 1000), // 7 day
+    expires: new Date(Date.now() + 7 * 60 * 60 * 24 * 1000), // 7 day
   });
 
   return res;

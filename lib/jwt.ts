@@ -2,7 +2,10 @@
 
 import { SignJWT, jwtVerify } from "jose";
 
-const SECRET = new TextEncoder().encode(process.env.SECRET_JWT_KEY || "");
+const SECRET = new TextEncoder().encode(
+  process.env.SECRET_JWT_KEY ||
+    "Xgg4blKv75VAEar5gw9qAD2En1ynmBCLKs2Ppu2J8CMdh2f6HqBOcu28mkN+kJ/FsviBKk2uLr7nwgYIJXYe3g=="
+);
 
 export async function signJwt(payload: any) {
   return await new SignJWT(payload)
