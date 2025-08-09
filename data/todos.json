@@ -1,0 +1,55 @@
+[
+  {
+    "boardId": "board-1",
+    "userId": "91e4c9",
+    "title": "Work",
+    "createdAt": "2024-01-15",
+    "todos": [
+      {
+        "id": "todo-1",
+        "title": "Complete quarterly report",
+        "description": "Analyze Q4 performance metrics",
+        "status": "pending",
+        "dueDate": "2025-10-01",
+        "priority": "medium",
+        "createdAt": "2025-08-08"
+      },
+      {
+        "title": "Create Presentation for Client",
+        "description": "",
+        "status": "completed",
+        "priority": "medium",
+        "dueDate": "2025-08-23",
+        "id": "7856e0",
+        "createdAt": "2025-09-05"
+      }
+    ]
+  },
+  {
+    "boardId": "1671f56b-c538-441b-a84c-f000340feaec",
+    "title": "Projects",
+    "userId": "91e4c9",
+    "todos": [
+      {
+        "title": "Build trading chart using MCP",
+        "description": "use mcp with llm to create a trading automated platform",
+        "status": "completed",
+        "priority": "low",
+        "dueDate": "2025-08-26",
+        "id": "5bb8c4",
+        "createdAt": "2025-08-09"
+      },
+      {
+        "id": "058103",
+        "createdAt": "2025-08-09",
+        "title": "Blockchain app",
+        "description": "solidity",
+        "status": "pending",
+        "priority": "low",
+        "dueDate": "2025-08-31",
+        "boardId": "1671f56b-c538-441b-a84c-f000340feaec"
+      }
+    ],
+    "createdAt": "Sat Aug 09 2025"
+  }
+]
